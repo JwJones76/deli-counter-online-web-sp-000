@@ -9,4 +9,6 @@ def line(line_array)
       current_line.concat("#{index + 1}. #{person}")
     end
     puts current_line
-  end 
+  end
+end
+
