@@ -21,7 +21,7 @@ def now_serving
   if line_array.empty?
     puts "There is nobidy waiting to be served."
   else
-    
+    test 
 
 
 
