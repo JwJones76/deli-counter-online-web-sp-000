@@ -7,9 +7,10 @@ def line(line_array)
     current_line = "The line is currently:"
     line_array.each_with_index do |person, index|
       current_line.concat(" #{index + 1}. #{person}")
+      puts current_line
+    end 
+      
     end
-    
-  end
 end
 
 def take_a_number(line_array, person)
