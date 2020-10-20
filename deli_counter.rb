@@ -6,4 +6,4 @@ def line(line_array)
   else 
     current_line = "Your position is line:"
     line_array.each_with_index do |person, index|
-      
+      current_line.concat("#{index}. #{person}")
