@@ -21,9 +21,11 @@ def now_serving
   if line_array.empty?
     puts "There is nobidy waiting to be served."
   else
-    puts "Now serving #{line_array[0]."
+    line_array
+    puts "Now serving"
   end
-end 
+end
+  
     
   
 
