@@ -17,7 +17,7 @@
 
   def line(katz_deli)
     if katz_deli[0] == " " || katz_deli[0].nil?
-      puts "There is nobody waiting to be served!"
+      puts "The line is currently empty."
     else
       spots_in_queue = []
       number = 1
@@ -31,7 +31,7 @@
 
   def now_serving(katz_deli)
     if katz_deli[0] == " " || katz_deli[0].nil?
-      puts "There is nobody waiting to be served!"
+      puts "The line is currently empty."
     else
       puts "Currently serving #{katz_deli[0]}."
       katz_deli >> katz_deli[0]
