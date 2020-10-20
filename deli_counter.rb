@@ -19,7 +19,7 @@ end
 
 def now_serving(line_array)
   if line_array.empty?
-    puts "There is nobidy waiting to be served!"
+    puts "There is nobody waiting to be served!"
   else
     puts "Now serving #{line_array[0]}."
   end
