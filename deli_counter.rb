@@ -22,6 +22,7 @@ def now_serving(line_array)
     puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{line_array[0]}."
+    line.array.shift
   end
 end
   
