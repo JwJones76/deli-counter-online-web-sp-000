@@ -21,7 +21,9 @@
         spots_in_queue << "#{number}. #{name}"	        spots_in_queue << "#{number}. #{name}"
         number += 1	        number += 1
       puts "The line is currently: #{spots_in_queue.join(" ")}"	      puts "The line is currently: #{spots_in_queue.join(" ")}"
-      end	      end
+      end	      
+      
+      end
     end	    end
   end	  end
   def now_serving(katz_deli)	  def now_serving(katz_deli)
