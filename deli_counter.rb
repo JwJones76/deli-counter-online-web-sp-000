@@ -3,7 +3,7 @@
 
   def position_in_line(katz_deli, name)
     #Returns customer's position in queue
-    katz_deli.find_index(name) += 1
+    
   end
 
   def take_a_number(katz_deli, user_input)
