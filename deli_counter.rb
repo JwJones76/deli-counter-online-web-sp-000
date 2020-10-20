@@ -18,6 +18,10 @@ def take_a_number(line_array, person)
 end
 
 def now_serving
+  if line_array.empty?
+    puts "There is nobidy waiting to be served."
+  else
+    
 
 
 
